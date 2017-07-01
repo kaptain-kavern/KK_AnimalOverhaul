@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Animal Overhaul</name>
+	<author>kaptain_kavern</author>
+	<url></url>
+	<targetVersion>0.17.0</targetVersion>
+	<description>A collection of patches and tweaks regarding animals :
+
+		<b> -= 1.0 - "Konrad Lorenz Edition" =- </b>
+
+Focused on animal behavior. 
+
+Changes are : 
+	- Chinchillas, Rhinoceros, Ostriches, Turkeys, Chickens, Pigs, Cows, Rat, WildBoars, Monkey, Wargs and all wolves are now herd animals.
+	- Pets sets to follow master while fieldwork will now consider DoctorRescue, ReleasePrisoner, Slaughter/Milk/Shear/Train, Harvest/Cut, Strip/Bury/Haul Corpses and CleanClearSnow as fieldwork.
+	- 
+	</description>
+</ModMetaData>

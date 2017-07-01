@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd"> <!-- Chinchilla are herdAnimals  -->
+		<xpath>/Defs/ThingDef[defName = "Chinchilla"]/race</xpath>
+		<value>
+			<herdAnimal>true</herdAnimal>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Rhinoceros are herdAnimals  -->
+		<xpath>/Defs/ThingDef[defName = "Rhinoceros"]/race</xpath>
+		<value>
+			<herdAnimal>true</herdAnimal>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace"> <!-- Ostrich are herdAnimals  -->
+		<xpath>/Defs/ThingDef[defName = "Ostrich"]/race/herdAnimal</xpath>
+		<value>
+			<herdAnimal>true</herdAnimal>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace"> <!-- Turkey are herdAnimals  -->
+		<xpath>/Defs/ThingDef[defName = "Turkey"]/race/herdAnimal</xpath>
+		<value>
+			<herdAnimal>true</herdAnimal>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Chicken are herdAnimals  -->
+		<xpath>/Defs/ThingDef[defName = "Chicken"]/race</xpath>
+		<value>
+			<herdAnimal>true</herdAnimal>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Pig are herdAnimals  -->
+		<xpath>/Defs/ThingDef[defName = "Pig"]/race</xpath>
+		<value>
+			<herdAnimal>true</herdAnimal>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Cow are herdAnimals  -->
+		<xpath>/Defs/ThingDef[defName = "Cow"]/race</xpath>
+		<value>
+			<herdAnimal>true</herdAnimal>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Rat are herdAnimals  -->
+		<xpath>/Defs/ThingDef[defName = "Rat"]/race</xpath>
+		<value>
+			<herdAnimal>true</herdAnimal>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- WildBoar are herdAnimals  -->
+		<xpath>/ThingDefs/ThingDef[defName = "WildBoar"]/race</xpath>
+		<value>
+			<herdAnimal>true</herdAnimal>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Monkey are herdAnimals  -->
+		<xpath>/Defs/ThingDef[defName = "Monkey"]/race</xpath>
+		<value>
+			<herdAnimal>true</herdAnimal>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Warg are herdAnimals  -->
+		<xpath>/Defs/ThingDef[defName = "Warg"]/race</xpath>
+		<value>
+			<herdAnimal>true</herdAnimal>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- All wolves are herdAnimals  -->
+		<xpath>/Defs/ThingDef[@Name = "ThingBaseWolf"]/race</xpath>
+		<value>
+			<herdAnimal>true</herdAnimal>
+		</value>
+	</Operation>
+
+</Patch>
