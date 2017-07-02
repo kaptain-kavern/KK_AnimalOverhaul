@@ -15,6 +15,27 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd"> <!-- Pack Elephant  -->
+		<xpath>/Defs/ThingDef[defName="Elephant"]/race</xpath>
+		<value>
+			<packAnimal>true</packAnimal>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Pack Rhinos  -->
+		<xpath>/Defs/ThingDef[defName="Rhinoceros"]/race</xpath>
+		<value>
+			<packAnimal>true</packAnimal>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Pack Bears  -->
+		<xpath>/Defs/ThingDef[@Name="BaseBear"]/race</xpath>
+		<value>
+			<packAnimal>true</packAnimal>
+		</value>
+	</Operation>
+
 	<Operation Class="PatchOperationReplace"> <!-- Ostrich are herdAnimals  -->
 		<xpath>/Defs/ThingDef[defName = "Ostrich"]/race/herdAnimal</xpath>
 		<value>

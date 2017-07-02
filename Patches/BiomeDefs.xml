@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd"> <!-- Add animals to AridShrubland allowed PackAnimals -->
+		<xpath>/Defs/BiomeDef[defName = "AridShrubland"]/allowedPackAnimals</xpath>
+		<value>
+			<li>Rhinoceros</li>
+			<li>Elephant</li>
+			<li>Alpaca</li>
+			<li>GrizzlyBear</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Add animals to Desert allowed PackAnimals -->
+		<xpath>/Defs/BiomeDef[defName = "Desert"]/allowedPackAnimals</xpath>
+		<value>
+			<li>Rhinoceros</li>
+			<li>Elephant</li>
+			<li>Alpaca</li>
+			<li>GrizzlyBear</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Add animals to ExtremeDesert allowed PackAnimals -->
+		<xpath>/Defs/BiomeDef[defName = "ExtremeDesert"]/allowedPackAnimals</xpath>
+		<value>
+			<li>Rhinoceros</li>
+			<li>Elephant</li>
+			<li>Alpaca</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Add animals to BorealForest allowed PackAnimals -->
+		<xpath>/Defs/BiomeDef[defName = "BorealForest"]/allowedPackAnimals</xpath>
+		<value>
+			<li>Alpaca</li>
+			<li>GrizzlyBear</li>
+			<li>PolarBear</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Add animals to Tundra allowed PackAnimals -->
+		<xpath>/Defs/BiomeDef[defName = "Tundra"]/allowedPackAnimals</xpath>
+		<value>
+			<li>Alpaca</li>
+			<li>GrizzlyBear</li>
+			<li>PolarBear</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Add animals to IceSheet allowed PackAnimals -->
+		<xpath>/Defs/BiomeDef[defName = "IceSheet"]/allowedPackAnimals</xpath>
+		<value>
+			<li>Alpaca</li>
+			<li>PolarBear</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Add animals to SeaIce allowed PackAnimals -->
+		<xpath>/Defs/BiomeDef[defName = "SeaIce"]/allowedPackAnimals</xpath>
+		<value>
+			<li>Alpaca</li>
+			<li>PolarBear</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Add animals to TemperateForest allowed PackAnimals -->
+		<xpath>/Defs/BiomeDef[defName = "TemperateForest"]/allowedPackAnimals</xpath>
+		<value>
+			<li>Rhinoceros</li>
+			<li>Elephant</li>
+			<li>Alpaca</li>
+			<li>GrizzlyBear</li>
+			<li>PolarBear</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Add animals to TropicalRainforest allowed PackAnimals -->
+		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/allowedPackAnimals</xpath>
+		<value>
+			<li>Rhinoceros</li>
+			<li>Elephant</li>
+			<li>Alpaca</li>
+			<li>GrizzlyBear</li>
+		</value>
+	</Operation>
+
+
+</Patch>

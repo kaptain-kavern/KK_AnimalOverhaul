@@ -6,13 +6,13 @@
 	<targetVersion>0.17.0</targetVersion>
 	<description>A collection of patches and tweaks regarding animals :
 
-		<b> -= 1.0 - "Konrad Lorenz Edition" =- </b>
+		 -= 1.0 - "Konrad Lorenz Edition" =- 
 
 Focused on animal behavior. 
 
 Changes are : 
 	- Chinchillas, Rhinoceros, Ostriches, Turkeys, Chickens, Pigs, Cows, Rat, WildBoars, Monkey, Wargs and all wolves are now herd animals.
 	- Pets sets to follow master while fieldwork will now consider DoctorRescue, ReleasePrisoner, Slaughter/Milk/Shear/Train, Harvest/Cut, Strip/Bury/Haul Corpses and CleanClearSnow as fieldwork.
-	- 
+	- All bears, Alpacas, Rhinoceros and Elephants can now be used as pack animals and will be used by other factions
 	</description>
 </ModMetaData>
