@@ -15,6 +15,20 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd"> <!-- Pack Caribou  -->
+		<xpath>/ThingDefs/ThingDef[defName="Caribou"]/race</xpath>
+		<value>
+			<packAnimal>true</packAnimal>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Pack Elk -->
+		<xpath>/ThingDefs/ThingDef[defName="Elk"]/race</xpath>
+		<value>
+			<packAnimal>true</packAnimal>
+		</value>
+	</Operation>
+
 	<Operation Class="PatchOperationAdd"> <!-- Pack Elephant  -->
 		<xpath>/Defs/ThingDef[defName="Elephant"]/race</xpath>
 		<value>
@@ -43,6 +57,13 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd"> <!-- Pack Ostrich -->
+		<xpath>/Defs/ThingDef[defName="Ostrich"]/race</xpath>
+		<value>
+			<packAnimal>true</packAnimal>
+		</value>
+	</Operation>
+
 	<Operation Class="PatchOperationReplace"> <!-- Turkey are herdAnimals  -->
 		<xpath>/Defs/ThingDef[defName = "Turkey"]/race/herdAnimal</xpath>
 		<value>
@@ -61,6 +82,13 @@
 		<xpath>/Defs/ThingDef[defName = "Pig"]/race</xpath>
 		<value>
 			<herdAnimal>true</herdAnimal>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Pack Cow -->
+		<xpath>/Defs/ThingDef[defName="Cow"]/race</xpath>
+		<value>
+			<packAnimal>true</packAnimal>
 		</value>
 	</Operation>
 
@@ -89,6 +117,13 @@
 		<xpath>/Defs/ThingDef[defName = "Monkey"]/race</xpath>
 		<value>
 			<herdAnimal>true</herdAnimal>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Pack Warg  -->
+		<xpath>/Defs/ThingDef[defName = "Warg"]/race</xpath>
+		<value>
+			<packAnimal>true</packAnimal>
 		</value>
 	</Operation>
 

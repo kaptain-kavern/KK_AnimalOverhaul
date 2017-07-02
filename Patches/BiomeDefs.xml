@@ -8,6 +8,9 @@
 			<li>Elephant</li>
 			<li>Alpaca</li>
 			<li>GrizzlyBear</li>
+			<li>Ostrich</li>
+			<li>Cow</li>
+			<li>Warg</li>
 		</value>
 	</Operation>
 
@@ -18,6 +21,9 @@
 			<li>Elephant</li>
 			<li>Alpaca</li>
 			<li>GrizzlyBear</li>
+			<li>Ostrich</li>
+			<li>Cow</li>
+			<li>Warg</li>
 		</value>
 	</Operation>
 
@@ -27,6 +33,7 @@
 			<li>Rhinoceros</li>
 			<li>Elephant</li>
 			<li>Alpaca</li>
+			<li>Ostrich</li>
 		</value>
 	</Operation>
 
@@ -36,6 +43,10 @@
 			<li>Alpaca</li>
 			<li>GrizzlyBear</li>
 			<li>PolarBear</li>
+			<li>Caribou</li>
+			<li>Elk</li>
+			<li>Cow</li>
+			<li>Warg</li>
 		</value>
 	</Operation>
 
@@ -45,6 +56,10 @@
 			<li>Alpaca</li>
 			<li>GrizzlyBear</li>
 			<li>PolarBear</li>
+			<li>Caribou</li>
+			<li>Elk</li>
+			<li>Ostrich</li>
+			<li>Warg</li>
 		</value>
 	</Operation>
 
@@ -53,6 +68,9 @@
 		<value>
 			<li>Alpaca</li>
 			<li>PolarBear</li>
+			<li>Caribou</li>
+			<li>Elk</li>
+			<li>Warg</li>
 		</value>
 	</Operation>
 
@@ -61,6 +79,7 @@
 		<value>
 			<li>Alpaca</li>
 			<li>PolarBear</li>
+			<li>Caribou</li>
 		</value>
 	</Operation>
 
@@ -72,6 +91,11 @@
 			<li>Alpaca</li>
 			<li>GrizzlyBear</li>
 			<li>PolarBear</li>
+			<li>Caribou</li>
+			<li>Elk</li>
+			<li>Cow</li>
+			<li>Ostrich</li>
+			<li>Warg</li>
 		</value>
 	</Operation>
 
@@ -82,6 +106,10 @@
 			<li>Elephant</li>
 			<li>Alpaca</li>
 			<li>GrizzlyBear</li>
+			<li>Elk</li>
+			<li>Ostrich</li>
+			<li>Cow</li>
+			<li>Warg</li>
 		</value>
 	</Operation>
 
