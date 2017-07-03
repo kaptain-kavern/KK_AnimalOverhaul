@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
+	<Operation Class="PatchOperationReplace"> <!-- Cat are smart  -->
+		<xpath>/Defs/ThingDef[defName = "Cat"]/race/trainableIntelligence</xpath>
+		<value>
+			<trainableIntelligence>Advanced</trainableIntelligence>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace"> <!-- Cat are savage and independent  -->
+		<xpath>/Defs/ThingDef[defName = "Cat"]/race/wildness</xpath>
+		<value>
+			<wildness>0.5</wildness>
+		</value>
+	</Operation>
+
 	<Operation Class="PatchOperationAdd"> <!-- Chinchilla are herdAnimals  -->
 		<xpath>/Defs/ThingDef[defName = "Chinchilla"]/race</xpath>
 		<value>
@@ -47,6 +61,34 @@
 		<xpath>/Defs/ThingDef[@Name="BaseBear"]/race</xpath>
 		<value>
 			<packAnimal>true</packAnimal>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- trainable intelligence -->
+		<xpath>/Defs/ThingDef[@Name="BigCatThingBase"]/race</xpath>
+		<value>
+			<trainableIntelligence>Advanced</trainableIntelligence>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Add maxPreyBodySize -->
+		<xpath>/Defs/ThingDef[@Name="BigCatThingBase"]/race</xpath>
+		<value>
+			<maxPreyBodySize>1.1</maxPreyBodySize>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Add maxPreyBodySize  -->
+		<xpath>/Defs/ThingDef[defName = "Lynx"]/race</xpath>
+		<value>
+			<maxPreyBodySize>0.8</maxPreyBodySize>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- trainable intelligence -->
+		<xpath>/Defs/ThingDef[defName = "Lynx"]/race</xpath>
+		<value>
+			<trainableIntelligence>Advanced</trainableIntelligence>
 		</value>
 	</Operation>
 
