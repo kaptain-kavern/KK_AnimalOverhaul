@@ -256,4 +256,17 @@
 		<xpath>/Defs/ThingDef[defName = "Turkey"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 	</Operation>
 
+    <Operation Class="PatchOperationInsert">  <!-- Shearable Thrumbos -->
+        <xpath>/Defs/ThingDef[defName = "Thrumbo"]/race</xpath>
+        <value>
+            <comps>
+                <li Class="CompProperties_Shearable">
+                    <woolDef>KKAO_ThrumboWool</woolDef>
+                    <shearIntervalDays>50</shearIntervalDays>
+                    <woolAmount>330</woolAmount>
+                </li>
+            </comps>
+        </value>
+    </Operation>
+
 </Patch>
