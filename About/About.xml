@@ -2,15 +2,14 @@
 <ModMetaData>
 	<name>Vanilla Animal Overhaul</name>
 	<author>kaptain_kavern</author>
-	<url></url>
+	<url>https://ludeon.com/forums/index.php?topic=34173.0</url>
 	<targetVersion>0.17.0</targetVersion>
 	<description>&lt;b&gt;A collection of patches and tweaks regarding animals&lt;/b&gt;
 
 	&lt;size=26&gt;-= 1.0 - "&lt;b&gt;Konrad Lorenz&lt;/b&gt;  Edition" =-&lt;/size&gt;
 			&lt;i&gt;Focused on animal behavior.&lt;/i&gt; 
 
-
-Changes are : 
+Changes : 
 
 	- All bears, Alpacas, Ostrich, Rhinoceros, Cow, Elk, Caribou, Warg and Elephants can now be used as pack animals and will be used by other factions
 
@@ -18,9 +17,16 @@ Changes are :
 
 	- Chinchillas, Rhinoceros, Ostriches, Turkeys, Chickens, Pigs, Cows, Rat, WildBoars, Monkey, Wargs and all wolves are now herd animals.
 
-	- Cats are now trainable (up to advanced like dogs) but are more harder to train than most other pets (wildness raised from 0.2 to 0.5)
+	- Cats and big Cats are now trainable (up to advanced like dogs) but are more harder to train than most other pets (wildness raised from 0.2 to 0.5 for the pet)
 
 	- All Bears and Big Cats have now a "maxPreyBodySize" attribute up to their relative own body size attribute.
+
+	&lt;size=26&gt;-= 1.1 - "&lt;b&gt;Charles Darwin&lt;/b&gt;  Edition" =-&lt;/size&gt;
+			&lt;i&gt;Focused on animal mechanics.&lt;/i&gt; 
+
+Changes are :
+
+	- Cassowaries, Emus, Iguanas, Ostriches, Tortoises and Turkey can now lay unfertilized eggs
 
 &lt;b&gt;A big Thank you to Oblitus&lt;/b&gt; : &lt;i&gt;For "fixing" pack animals to be buyable.&lt;/i&gt; 
 

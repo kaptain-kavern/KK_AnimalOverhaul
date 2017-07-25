@@ -190,4 +190,70 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd"> <!-- Unfertilized cassowary egg -->
+		<xpath>/Defs/ThingDef[defName = "Cassowary"]/comps/li[@Class = "CompProperties_EggLayer"]</xpath>
+		<value>
+			<eggUnfertilizedDef>EggCassowaryUnfertilized</eggUnfertilizedDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove"> <!-- Unfertilized cassowary egg  -->
+		<xpath>/Defs/ThingDef[defName = "Cassowary"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Unfertilized emu egg -->
+		<xpath>/Defs/ThingDef[defName = "Emu"]/comps/li[@Class = "CompProperties_EggLayer"]</xpath>
+		<value>
+			<eggUnfertilizedDef>EggEmuUnfertilized</eggUnfertilizedDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove"> <!-- Unfertilized emu egg  -->
+		<xpath>/Defs/ThingDef[defName = "Emu"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Unfertilized iguana egg -->
+		<xpath>/Defs/ThingDef[defName = "Iguana"]/comps/li[@Class = "CompProperties_EggLayer"]</xpath>
+		<value>
+			<eggUnfertilizedDef>EggIguanaUnfertilized</eggUnfertilizedDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove"> <!-- Unfertilized iguana egg  -->
+		<xpath>/Defs/ThingDef[defName = "Iguana"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Unfertilized ostrich egg -->
+		<xpath>/Defs/ThingDef[defName = "Ostrich"]/comps/li[@Class = "CompProperties_EggLayer"]</xpath>
+		<value>
+			<eggUnfertilizedDef>EggOstrichUnfertilized</eggUnfertilizedDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove"> <!-- Unfertilized ostrich egg  -->
+		<xpath>/Defs/ThingDef[defName = "Ostrich"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Unfertilized tortoise egg -->
+		<xpath>/ThingDefs/ThingDef[defName = "Tortoise"]/comps/li[@Class = "CompProperties_EggLayer"]</xpath>
+		<value>
+			<eggUnfertilizedDef>EggTortoiseUnfertilized</eggUnfertilizedDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove"> <!-- Unfertilized tortoise egg  -->
+		<xpath>/ThingDefs/ThingDef[defName = "Tortoise"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd"> <!-- Unfertilized turkey egg -->
+		<xpath>/Defs/ThingDef[defName = "Turkey"]/comps/li[@Class = "CompProperties_EggLayer"]</xpath>
+		<value>
+			<eggUnfertilizedDef>EggTurkeyUnfertilized</eggUnfertilizedDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove"> <!-- Unfertilized turkey egg  -->
+		<xpath>/Defs/ThingDef[defName = "Turkey"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+	</Operation>
+
 </Patch>
