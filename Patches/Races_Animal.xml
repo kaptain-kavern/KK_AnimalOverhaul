@@ -267,6 +267,42 @@
 		<xpath>/Defs/PawnKindDef[defName = "Elephant"]/lifeStages/li[3]/butcherBodyPart/allowFemale</xpath>		
 	</Operation> 
 
+
+	<Operation Class="PatchOperationReplace"> <!-- switch to modded body for gazelle-->
+		<xpath>/Defs/ThingDef[defName = "Gazelle"]/race/body</xpath>
+		<value>
+			<body>KKAO_QuadrupedAnimalWithHoovesAndHorns</body>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace"> <!-- switch to modded body for deer-->
+		<xpath>/ThingDefs/ThingDef[defName = "Deer"]/race/body</xpath>
+		<value>
+			<body>KKAO_QuadrupedAnimalWithHoovesAndAntlers</body>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace"> <!-- switch to modded body for Ibex-->
+		<xpath>/ThingDefs/ThingDef[defName = "Ibex"]/race/body</xpath>
+		<value>
+			<body>KKAO_QuadrupedAnimalWithHoovesAndHorns</body>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace"> <!-- Elk switch to modded body -->
+		<xpath>/ThingDefs/ThingDef[defName = "Elk"]/race/body</xpath>
+		<value>
+			<body>KKAO_QuadrupedAnimalWithHoovesAndAntlers</body>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace"> <!-- Caribou switch to modded body -->
+		<xpath>/ThingDefs/ThingDef[defName = "Caribou"]/race/body</xpath>
+		<value>
+			<body>KKAO_QuadrupedAnimalWithHoovesAndAntlers</body>
+		</value>
+	</Operation>
+
     <Operation Class="PatchOperationInsert">  <!-- Shearable Thrumbos -->
         <xpath>/Defs/ThingDef[defName = "Thrumbo"]/race</xpath>
         <value>
