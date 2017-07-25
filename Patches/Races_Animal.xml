@@ -275,10 +275,49 @@
 		</value>
 	</Operation>
 
+
+	<Operation Class="PatchOperationAdd"> <!-- Milkable Alpaca  -->
+		<xpath>/Defs/ThingDef[defName = "Alpaca"]/comps</xpath>
+		<value>
+		      <li Class="CompProperties_Milkable">
+		        <milkDef>Milk</milkDef>
+		        <milkIntervalDays>2</milkIntervalDays>
+		        <milkAmount>6</milkAmount>
+		      </li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationInsert"> <!-- Milkable Deer  -->
+		<xpath>/ThingDefs/ThingDef[defName = "Deer"]/description</xpath>
+		<value>
+		    <comps>
+		      <li Class="CompProperties_Milkable">
+		        <milkDef>Milk</milkDef>
+		        <milkIntervalDays>2</milkIntervalDays>
+		        <milkAmount>6</milkAmount>
+		      </li>
+		    </comps>
+		</value>
+	</Operation>
+
 	<Operation Class="PatchOperationReplace"> <!-- switch to modded body for deer-->
 		<xpath>/ThingDefs/ThingDef[defName = "Deer"]/race/body</xpath>
 		<value>
 			<body>KKAO_QuadrupedAnimalWithHoovesAndAntlers</body>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationInsert"> <!-- Milkable Ibex  -->
+		<xpath>/ThingDefs/ThingDef[defName = "Ibex"]/description</xpath>
+		<value>
+		    <comps>
+		      <li Class="CompProperties_Milkable">
+		        <milkDef>Milk</milkDef>
+		        <milkIntervalDays>2</milkIntervalDays>
+		        <milkAmount>6</milkAmount>
+		      </li>
+		    </comps>
 		</value>
 	</Operation>
 
