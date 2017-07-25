@@ -256,6 +256,17 @@
 		<xpath>/Defs/ThingDef[defName = "Turkey"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 	</Operation>
 
+	<Operation Class="PatchOperationReplace"> <!-- Elephant eat trees -->
+		<xpath>/Defs/ThingDef[defName = "Elephant"]/race/foodType</xpath>
+		<value>
+			<foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove"> <!-- Female Elephant will drop tusk as well -->
+		<xpath>/Defs/PawnKindDef[defName = "Elephant"]/lifeStages/li[3]/butcherBodyPart/allowFemale</xpath>		
+	</Operation> 
+
     <Operation Class="PatchOperationInsert">  <!-- Shearable Thrumbos -->
         <xpath>/Defs/ThingDef[defName = "Thrumbo"]/race</xpath>
         <value>
