@@ -436,4 +436,28 @@
         </value>
     </Operation>
 
+    <Operation Class="PatchOperationAdd">  <!-- YorkshireTerrier can hunt very small prey -->
+        <xpath>/Defs/ThingDef[defName = "YorkshireTerrier"]/race</xpath>
+        <value>
+        	<predator>true</predator>
+        	<maxPreyBodySize>0.2</maxPreyBodySize>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">  <!-- Husky can hunt very small prey -->
+        <xpath>/Defs/ThingDef[defName = "Husky"]/race</xpath>
+        <value>
+        	<predator>true</predator>
+        	<maxPreyBodySize>0.45</maxPreyBodySize>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">  <!-- LabradorRetriever can hunt very small prey -->
+        <xpath>/Defs/ThingDef[defName = "LabradorRetriever"]/race</xpath>
+        <value>
+        	<predator>true</predator>
+        	<maxPreyBodySize>0.45</maxPreyBodySize>
+        </value>
+    </Operation>
+
 </Patch>
