@@ -347,16 +347,21 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationInsert"> <!-- Milkable Ibex  -->
+	<Operation Class="PatchOperationInsert"> <!-- Milkable and shearable Ibex  -->
 		<xpath>/ThingDefs/ThingDef[defName = "Ibex"]/description</xpath>
 		<value>
-		    <comps>
-		      <li Class="CompProperties_Milkable">
-		        <milkDef>Milk</milkDef>
-		        <milkIntervalDays>2</milkIntervalDays>
-		        <milkAmount>6</milkAmount>
-		      </li>
-		    </comps>
+			<comps>
+				<li Class="CompProperties_Milkable">
+					<milkDef>Milk</milkDef>
+					<milkIntervalDays>2</milkIntervalDays>
+					<milkAmount>6</milkAmount>
+				</li>
+				<li Class="CompProperties_Shearable">
+					<woolDef>KKAO_WoolIbex</woolDef>
+					<shearIntervalDays>22</shearIntervalDays>
+					<woolAmount>70</woolAmount>
+				</li>
+			</comps>
 		</value>
 	</Operation>
 
