@@ -9,24 +9,24 @@ _Focused on animal behavior_
 
 - Chinchillas, Rhinoceros, Ostriches, Turkeys, Chickens, Pigs, Cows, Rat, WildBoars, Monkey, Wargs and all wolves are now herd animals.
 
-- Cats and big Cats are now trainable (up to advanced like dogs) but are more harder to train than most other pets (wildness raised from 0.2 to 0.5 for the pet).
+- Cats and big Cats are now trainable (up to advanced like dogs) but are harder to train than most other pets (wildness raised from 0.2 to 0.5 for the pet).
 
 - All Bears, Foxes and Big Cats have now a "maxPreyBodySize" attribute up to their relative own body size attribute.
 
-- All dogs are now sets to be predator (but only for the smallest animals)
+- All dogs are now set to be predator (but only for the smallest animals)
 
 # -= 1.1 - "__Charles Darwin__  Edition" =-
 _Focused on animal mechanics_ 
 
-- Cassowaries, Emus, Iguanas, Ostriches, Tortoises and Turkey can now lay unfertilized eggs
+- Cassowaries, Emus, Iguanas, Ostriches, Tortoises, and Turkey can now lay unfertilized eggs
 
-- Monkeys and domestic Cats had their bodysize upped in order for them to be eligible for haul training (from 0.35 to 0.40 for monkeys and from 0.26 to 0.4 for cats)
+- Monkeys and domestic Cats had their body-size upped in order for them to be eligible for haul training (from 0.35 to 0.40 for monkeys and from 0.26 to 0.4 for cats)
 
 - Elephants can now eat trees and the female elephant will also drop tusks
 
-- Caribous, Deers, Elks, Gazelles, Ibexes and Rhinos will now drop horns/antlers/tusks when butchered. They are considered quite valuable for resell and can be used as makeshift melee weapon
+- Caribous, Deers, Elks, Gazelles, Ibexes, and Rhinos will now drop horns/antlers/tusks when butchered. They are considered quite valuable for reselling and can be used as makeshift melee weapon
 
-- Alpacas, Deers and Ibexes can now be milked. Ibexes produce poor-quality wool now
+- Alpacas, Deers, and Ibexes can now be milked. Ibexes produce poor-quality wool now
 
 - Thrumbos can now be sheared (every 50 days) for their high-quality wool
 
