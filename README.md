@@ -1,5 +1,21 @@
 A collection of patches and tweaks regarding animals
 
+# -= 1.1 - "__Charles Darwin__  Edition" =-
+_Focused on animal mechanics_ 
+
+- Cassowaries, Emus, Iguanas, Ostriches, Tortoises, and Turkey can now lay unfertilized eggs
+
+- Monkeys and domestic Cats had their body-size upped in order for them to be eligible for haul training (from 0.35 to 0.40 for monkeys and from 0.26 to 0.4 for cats)
+
+- Elephants can now eat trees and the female elephant will also drop tusks
+
+- Caribous, Deers, Elks, Gazelles, Ibexes, and Rhinos will now drop horns/antlers/tusks when butchered. They are considered quite valuable for reselling and can be used as makeshift melee weapon
+
+- Alpacas, Deers, and Ibexes can now be milked. Ibexes produce poor-quality wool now
+
+- Thrumbos can now be sheared (every 50 days) for their high-quality wool
+
+
 # -= 1.0 - "__Konrad Lorenz__  Edition" =-
 _Focused on animal behavior_ 
 
@@ -15,20 +31,6 @@ _Focused on animal behavior_
 
 - All dogs are now set to be predator (but only for the smallest animals)
 
-# -= 1.1 - "__Charles Darwin__  Edition" =-
-_Focused on animal mechanics_ 
-
-- Cassowaries, Emus, Iguanas, Ostriches, Tortoises, and Turkey can now lay unfertilized eggs
-
-- Monkeys and domestic Cats had their body-size upped in order for them to be eligible for haul training (from 0.35 to 0.40 for monkeys and from 0.26 to 0.4 for cats)
-
-- Elephants can now eat trees and the female elephant will also drop tusks
-
-- Caribous, Deers, Elks, Gazelles, Ibexes, and Rhinos will now drop horns/antlers/tusks when butchered. They are considered quite valuable for reselling and can be used as makeshift melee weapon
-
-- Alpacas, Deers, and Ibexes can now be milked. Ibexes produce poor-quality wool now
-
-- Thrumbos can now be sheared (every 50 days) for their high-quality wool
 
 ## Thanks / Credits
 
