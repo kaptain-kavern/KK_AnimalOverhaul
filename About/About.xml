@@ -15,29 +15,32 @@
 
 	- Chinchillas, Rhinoceros, Ostriches, Turkeys, Chickens, Pigs, Cows, Rat, WildBoars, Monkey, Wargs and all wolves are now herd animals.
 
-	- Cats and big Cats are now trainable (up to advanced like dogs) but are more harder to train than most other pets (wildness raised from 0.2 to 0.5 for the pet)
+	- Cats and big Cats are now trainable (up to advanced like dogs) but are more harder to train than most other pets (wildness raised from 0.2 to 0.5 for the pet).
 
-	- All Bears and Big Cats have now a "maxPreyBodySize" attribute up to their relative own body size attribute.
+	- All Bears, Foxes and Big Cats have now a "maxPreyBodySize" attribute up to their relative own body size attribute.
+
+	- All dogs are now sets to be predator (but only for the smallest animals)
 
 	&lt;size=26&gt;-= 1.1 - "&lt;b&gt;Charles Darwin&lt;/b&gt;  Edition" =-&lt;/size&gt;
 			&lt;i&gt;Focused on animal mechanics.&lt;/i&gt; 
 
 	- Cassowaries, Emus, Iguanas, Ostriches, Tortoises and Turkey can now lay unfertilized eggs
 
+	- Monkeys and domestic Cats had their bodysize upped in order for them to be eligible for haul training (from 0.35 to 0.40 for monkeys and from 0.26 to 0.4 for cats)
+
 	- Elephants can now eat trees and the female elephant will also drop tusks
 
-	- Caribous, Deers, Elks, Gazelles, Ibexes and Rhinos will now drop horns, antlers or tusks when butchered. They are considered quite valuable for resell and can be used as makeshift melee weapon
+	- Caribous, Deers, Elks, Gazelles, Ibexes and Rhinos will now drop horns/antlers/tusks when butchered. They are considered quite valuable for resell and can be used as makeshift melee weapon
 
-	- Alpacas, Deers and Ibexes can now be milked
+	- Alpacas, Deers and Ibexes can now be milked. Ibexes produce poor-quality wool now
 
 	- Thrumbos can now be sheared (every 50 days) for their high-quality wool
 
+====================================================================	
 
+	&lt;b&gt;A big Thank you to Oblitus&lt;/b&gt; : &lt;i&gt;For "fixing" pack animals to be buyable.&lt;/i&gt; 
 
-
-	
-
-&lt;b&gt;A big Thank you to Oblitus&lt;/b&gt; : &lt;i&gt;For "fixing" pack animals to be buyable.&lt;/i&gt; 
+	&lt;b&gt;A big Thank you to Coercion&lt;/b&gt; : &lt;i&gt;For all horns and antlers graphics - Originally made for the TropiCKAPP Rainforest mod.&lt;/i&gt; 
 
 	</description>
 </ModMetaData>

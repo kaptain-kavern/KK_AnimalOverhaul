@@ -78,6 +78,13 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd"> <!-- Add maxPreyBodySize -->
+		<xpath>/Defs/ThingDef[@Name="ThingBaseFox"]/race</xpath>
+		<value>
+			<maxPreyBodySize>0.55</maxPreyBodySize>
+		</value>
+	</Operation>
+
 	<Operation Class="PatchOperationAdd"> <!-- trainable intelligence -->
 		<xpath>/Defs/ThingDef[@Name="BigCatThingBase"]/race</xpath>
 		<value>
