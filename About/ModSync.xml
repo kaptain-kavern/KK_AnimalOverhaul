@@ -2,6 +2,6 @@
 <ModSyncNinjaData>
 	<ID>de8ed802-7aed-4ed9-bc8b-68dde8d0f5d1</ID>
 	<ModName>Vanilla Animal Overhaul</ModName>
-	<Version>0.17.0</Version>
-	<SaveBreaking>false</SaveBreaking>
+	<Version>0.17.1</Version>
+	<SaveBreaking>true</SaveBreaking>
 </ModSyncNinjaData>
