@@ -11,7 +11,7 @@
 	<Operation Class="PatchOperationReplace"> <!-- Cat are savage and independent  -->
 		<xpath>/Defs/ThingDef[defName = "Cat"]/race/wildness</xpath>
 		<value>
-			<wildness>0.5</wildness>
+			<wildness>0.3</wildness>
 		</value>
 	</Operation>
 
