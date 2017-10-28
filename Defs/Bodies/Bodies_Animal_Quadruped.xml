@@ -7,7 +7,8 @@
   - this body part is then hit.
 -->
 
-<BodyDefs>
+<Defs>
+
   <BodyDef>
     <defName>KKAO_QuadrupedAnimalWithHoovesAndHorns</defName>
     <label>quadruped animal</label>
@@ -18,12 +19,12 @@
       <parts>
         <li>
           <def>Spine</def>
-          <coverage>0.02</coverage>
+          <coverage>0.03</coverage>
           <depth>Inside</depth>
         </li>
         <li>
           <def>Stomach</def>
-          <coverage>0.05</coverage>
+          <coverage>0.03</coverage>
           <depth>Inside</depth>
         </li>
         <li>
@@ -53,69 +54,71 @@
         </li>
         <li>
           <def>Liver</def>
-          <coverage>0.05</coverage>
+          <coverage>0.03</coverage>
           <depth>Inside</depth>
         </li>
         <li>
           <def>Neck</def>
-          <coverage>0.08</coverage>
+          <coverage>0.28</coverage>
           <height>Top</height>
           <parts>
             <li>
-              <def>KKAO_LeftHorn</def>
-              <coverage>0.15</coverage>
-              <groups>
-                <li>HornAttackTool</li>
-              </groups>
-            </li>
-            <li>
-              <def>KKAO_RightHorn</def>
-              <coverage>0.15</coverage>
-              <groups>
-                <li>HornAttackTool</li>
-              </groups>
-            </li>
-            <li>
               <def>Head</def>
-              <coverage>0.60</coverage>
+              <coverage>0.8</coverage>
               <groups>
                 <li>HeadAttackTool</li>
               </groups>
               <parts>
                 <li>
                   <def>Skull</def>
-                  <coverage>0.15</coverage>
+                  <coverage>0.45</coverage>
                   <depth>Inside</depth>
                   <parts>
                     <li>
                       <def>Brain</def>
-                      <coverage>0.7</coverage>
+                      <coverage>0.2</coverage>
                       <depth>Inside</depth>
+                    </li>
+                    <li>
+                      <def>KKAO_LeftHorn</def>
+                      <coverage>0.35</coverage>
+                      <depth>Outside</depth>
+                      <groups>
+                        <li>HornAttackTool</li>
+                      </groups>
+                    </li>
+                    <li>
+                      <def>KKAO_RightHorn</def>
+                      <coverage>0.35</coverage>
+                      <depth>Outside</depth>
+                      <groups>
+                        <li>HornAttackTool</li>
+                      </groups>
                     </li>
                   </parts>
                 </li>
                 <li>
                   <def>LeftEye</def>
-                  <coverage>0.15</coverage>
+                  <coverage>0.09</coverage>
                 </li>
                 <li>
                   <def>RightEye</def>
-                  <coverage>0.15</coverage>
+                  <coverage>0.09</coverage>
                 </li>
                 <li>
                   <def>LeftEar</def>
-                  <coverage>0.05</coverage>
+                  <coverage>0.06</coverage>
                 </li>
                 <li>
                   <def>RightEar</def>
-                  <coverage>0.05</coverage>
+                  <coverage>0.06</coverage>
                 </li>
                 <li>
                   <def>Nose</def>
-                  <coverage>0.1</coverage>                  
+                  <coverage>0.06</coverage>
                 </li>
                 <li>
-                  <def>Jaw</def>
+                  <def>AnimalJaw</def>
                   <coverage>0.1</coverage>
                   <groups>
                     <li>Teeth</li>
@@ -127,7 +130,7 @@
         </li>
         <li>
           <def>FrontLeftLeg</def>
-          <coverage>0.1</coverage>
+          <coverage>0.065</coverage>
           <height>Bottom</height>
           <groups>
             <li>FrontLeftLeg</li>
@@ -135,13 +138,13 @@
           <parts>
             <li>
               <def>FrontLeftHoof</def>
-              <coverage>0.1</coverage>
+              <coverage>0.15</coverage>
             </li>
           </parts>
         </li>
         <li>
           <def>FrontRightLeg</def>
-          <coverage>0.1</coverage>
+          <coverage>0.065</coverage>
           <height>Bottom</height>
           <groups>
             <li>FrontRightLeg</li>
@@ -149,29 +152,29 @@
           <parts>
             <li>
               <def>FrontRightHoof</def>
-              <coverage>0.1</coverage>
+              <coverage>0.15</coverage>
             </li>
           </parts>
         </li>
         <li>
           <def>RearLeftLeg</def>
-          <coverage>0.1</coverage>
+          <coverage>0.065</coverage>
           <height>Bottom</height>
           <parts>
             <li>
               <def>RearLeftHoof</def>
-              <coverage>0.1</coverage>
+              <coverage>0.15</coverage>
             </li>
           </parts>
         </li>
         <li>
           <def>RearRightLeg</def>
-          <coverage>0.1</coverage>
+          <coverage>0.065</coverage>
           <height>Bottom</height>
           <parts>
             <li>
               <def>RearRightHoof</def>
-              <coverage>0.1</coverage>
+              <coverage>0.15</coverage>
             </li>
           </parts>
         </li>
@@ -189,12 +192,12 @@
       <parts>
         <li>
           <def>Spine</def>
-          <coverage>0.02</coverage>
+          <coverage>0.03</coverage>
           <depth>Inside</depth>
         </li>
         <li>
           <def>Stomach</def>
-          <coverage>0.05</coverage>
+          <coverage>0.03</coverage>
           <depth>Inside</depth>
         </li>
         <li>
@@ -224,69 +227,71 @@
         </li>
         <li>
           <def>Liver</def>
-          <coverage>0.05</coverage>
+          <coverage>0.03</coverage>
           <depth>Inside</depth>
         </li>
         <li>
           <def>Neck</def>
-          <coverage>0.08</coverage>
+          <coverage>0.22</coverage>
           <height>Top</height>
           <parts>
             <li>
-              <def>KKAO_LeftAntler</def>
-              <coverage>0.18</coverage>
-              <groups>
-                <li>HornAttackTool</li>
-              </groups>
-            </li>
-            <li>
-              <def>KKAO_RightAntler</def>
-              <coverage>0.18</coverage>
-              <groups>
-                <li>HornAttackTool</li>
-              </groups>
-            </li>
-            <li>
               <def>Head</def>
-              <coverage>0.55</coverage>
+              <coverage>0.75</coverage>
               <groups>
                 <li>HeadAttackTool</li>
               </groups>
               <parts>
                 <li>
                   <def>Skull</def>
-                  <coverage>0.15</coverage>
+                  <coverage>0.25</coverage>
                   <depth>Inside</depth>
                   <parts>
                     <li>
                       <def>Brain</def>
-                      <coverage>0.7</coverage>
+                      <coverage>0.2</coverage>
                       <depth>Inside</depth>
+                    </li>
+                    <li>
+                      <def>KKAO_LeftAntler</def>
+                      <coverage>0.35</coverage>
+                      <depth>Outside</depth>
+                      <groups>
+                        <li>HornAttackTool</li>
+                      </groups>
+                    </li>
+                    <li>
+                      <def>KKAO_RightAntler</def>
+                      <coverage>0.35</coverage>
+                      <depth>Outside</depth>
+                      <groups>
+                        <li>HornAttackTool</li>
+                      </groups>
                     </li>
                   </parts>
                 </li>
                 <li>
                   <def>LeftEye</def>
-                  <coverage>0.15</coverage>
+                  <coverage>0.12</coverage>
                 </li>
                 <li>
                   <def>RightEye</def>
-                  <coverage>0.15</coverage>
+                  <coverage>0.12</coverage>
                 </li>
                 <li>
                   <def>LeftEar</def>
-                  <coverage>0.05</coverage>
+                  <coverage>0.08</coverage>
                 </li>
                 <li>
                   <def>RightEar</def>
-                  <coverage>0.05</coverage>
+                  <coverage>0.08</coverage>
                 </li>
                 <li>
                   <def>Nose</def>
-                  <coverage>0.1</coverage>                  
+                  <coverage>0.1</coverage>
                 </li>
                 <li>
-                  <def>Jaw</def>
+                  <def>AnimalJaw</def>
                   <coverage>0.1</coverage>
                   <groups>
                     <li>Teeth</li>
@@ -298,7 +303,7 @@
         </li>
         <li>
           <def>FrontLeftLeg</def>
-          <coverage>0.1</coverage>
+          <coverage>0.07</coverage>
           <height>Bottom</height>
           <groups>
             <li>FrontLeftLeg</li>
@@ -306,13 +311,13 @@
           <parts>
             <li>
               <def>FrontLeftHoof</def>
-              <coverage>0.1</coverage>
+              <coverage>0.15</coverage>
             </li>
           </parts>
         </li>
         <li>
           <def>FrontRightLeg</def>
-          <coverage>0.1</coverage>
+          <coverage>0.07</coverage>
           <height>Bottom</height>
           <groups>
             <li>FrontRightLeg</li>
@@ -320,29 +325,29 @@
           <parts>
             <li>
               <def>FrontRightHoof</def>
-              <coverage>0.1</coverage>
+              <coverage>0.15</coverage>
             </li>
           </parts>
         </li>
         <li>
           <def>RearLeftLeg</def>
-          <coverage>0.1</coverage>
+          <coverage>0.07</coverage>
           <height>Bottom</height>
           <parts>
             <li>
               <def>RearLeftHoof</def>
-              <coverage>0.1</coverage>
+              <coverage>0.15</coverage>
             </li>
           </parts>
         </li>
         <li>
           <def>RearRightLeg</def>
-          <coverage>0.1</coverage>
+          <coverage>0.07</coverage>
           <height>Bottom</height>
           <parts>
             <li>
               <def>RearRightHoof</def>
-              <coverage>0.1</coverage>
+              <coverage>0.15</coverage>
             </li>
           </parts>
         </li>
@@ -350,4 +355,4 @@
     </corePart>
   </BodyDef>
 
-</BodyDefs>
+</Defs>

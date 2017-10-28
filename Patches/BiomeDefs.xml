@@ -5,7 +5,6 @@
 		<xpath>/Defs/BiomeDef[defName = "AridShrubland"]/allowedPackAnimals</xpath>
 		<value>
 			<li>Rhinoceros</li>
-			<li>Elephant</li>
 			<li>Alpaca</li>
 			<li>GrizzlyBear</li>
 			<li>Ostrich</li>
@@ -63,6 +62,19 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd"> <!-- Add animals to ColdBog allowed PackAnimals -->
+		<xpath>/Defs/BiomeDef[defName = "ColdBog"]/allowedPackAnimals</xpath>
+		<value>
+			<li>Alpaca</li>
+			<li>GrizzlyBear</li>
+			<li>PolarBear</li>
+			<li>Caribou</li>
+			<li>Elk</li>
+			<li>Ostrich</li>
+			<li>Warg</li>
+		</value>
+	</Operation>
+
 	<Operation Class="PatchOperationAdd"> <!-- Add animals to IceSheet allowed PackAnimals -->
 		<xpath>/Defs/BiomeDef[defName = "IceSheet"]/allowedPackAnimals</xpath>
 		<value>
@@ -99,11 +111,39 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd"> <!-- Add animals to TemperateSwamp allowed PackAnimals -->
+		<xpath>/Defs/BiomeDef[defName = "TemperateSwamp"]/allowedPackAnimals</xpath>
+		<value>
+			<li>Rhinoceros</li>
+			<li>Elephant</li>
+			<li>Alpaca</li>
+			<li>GrizzlyBear</li>
+			<li>PolarBear</li>
+			<li>Caribou</li>
+			<li>Elk</li>
+			<li>Cow</li>
+			<li>Ostrich</li>
+			<li>Warg</li>
+		</value>
+	</Operation>
+
 	<Operation Class="PatchOperationAdd"> <!-- Add animals to TropicalRainforest allowed PackAnimals -->
 		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/allowedPackAnimals</xpath>
 		<value>
 			<li>Rhinoceros</li>
-			<li>Elephant</li>
+			<li>Alpaca</li>
+			<li>GrizzlyBear</li>
+			<li>Elk</li>
+			<li>Ostrich</li>
+			<li>Cow</li>
+			<li>Warg</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Add animals to TropicalSwamp allowed PackAnimals -->
+		<xpath>/Defs/BiomeDef[defName = "TropicalSwamp"]/allowedPackAnimals</xpath>
+		<value>
+			<li>Rhinoceros</li>
 			<li>Alpaca</li>
 			<li>GrizzlyBear</li>
 			<li>Elk</li>

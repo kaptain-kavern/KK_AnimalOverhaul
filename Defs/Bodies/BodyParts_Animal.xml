@@ -10,6 +10,7 @@
     <skinCovered>false</skinCovered>
     <isSolid>true</isSolid>
     <isAlive>false</isAlive>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -20,6 +21,7 @@
     <skinCovered>false</skinCovered>
     <isSolid>true</isSolid>
     <isAlive>false</isAlive>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
   </BodyPartDef>
 
     <BodyPartDef>
@@ -30,6 +32,7 @@
     <skinCovered>false</skinCovered>
     <isSolid>true</isSolid>
     <isAlive>false</isAlive>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
   </BodyPartDef>
 
     <BodyPartDef>
@@ -40,6 +43,7 @@
     <skinCovered>false</skinCovered>
     <isSolid>true</isSolid>
     <isAlive>false</isAlive>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
   </BodyPartDef>
 
 </Defs>

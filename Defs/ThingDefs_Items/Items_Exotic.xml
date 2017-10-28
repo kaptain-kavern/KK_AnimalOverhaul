@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<GameData>
+<Defs>
   
 <ThingDef Name="KKAO_HornBase" ParentName="ResourceVerbBase" Abstract="True">
   <thingCategories>
@@ -24,21 +24,31 @@
     <statBases>
       <MarketValue>450</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
-	  <Mass>1.8</Mass> <!-- ElephantTusk's mass = 1.8 -->
+      <Mass>1.8</Mass> <!-- ElephantTusk's mass = 1.8 -->
       <Flammability>1.0</Flammability>
-      <DeteriorationRate>0.4</DeteriorationRate>
-      <MeleeWeapon_DamageAmount>15</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>2.4</MeleeWeapon_Cooldown>
+      <DeteriorationRate>0.5</DeteriorationRate>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2.4</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!--============== Gazelle horn ===================-->
@@ -58,18 +68,28 @@
 	  <Mass>0.8</Mass> <!-- ElephantTusk's mass = 1.8 -->
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
-      <MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>1.8</MeleeWeapon_Cooldown>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Stab</meleeDamageDef>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.8</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!--================ Ibex horn ====================-->
@@ -89,18 +109,28 @@
 	  <Mass>1.2</Mass>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
-      <MeleeWeapon_DamageAmount>14</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>2.2</MeleeWeapon_Cooldown>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Blunt</meleeDamageDef>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2.2</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>    
 
   <!--=============== Deer Antler ===================-->
@@ -120,18 +150,28 @@
 	  <Mass>0.8</Mass>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
-      <MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>2</MeleeWeapon_Cooldown>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!--=============== Elk Antler ====================-->
@@ -151,18 +191,28 @@
 	  <Mass>0.8</Mass>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
-      <MeleeWeapon_DamageAmount>12</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>2.2</MeleeWeapon_Cooldown>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.2</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!--============= Caribou Antler ==================-->
@@ -179,21 +229,31 @@
     <statBases>
       <MarketValue>250</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
-	  <Mass>1.2</Mass>
+	  <Mass>2</Mass>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
-      <MeleeWeapon_DamageAmount>15</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>2.4</MeleeWeapon_Cooldown>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2.4</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
-</GameData>
+</Defs>

@@ -2,90 +2,83 @@
 <Patch>
 
 	<Operation Class="PatchOperationAdd"> <!-- Adding Fieldwork tag to DoctorRescue -->
-		<xpath>/WorkGivers/WorkGiverDef[defName = "DoctorRescue"]</xpath>
+		<xpath>/Defs/WorkGiverDef[defName = "DoctorRescue"]</xpath>
 		<value>
 			<tagToGive>Fieldwork</tagToGive>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Adding Fieldwork tag to ReleasePrisoner -->
-		<xpath>/WorkGivers/WorkGiverDef[defName = "ReleasePrisoner"]</xpath>
+		<xpath>/Defs/WorkGiverDef[defName = "ReleasePrisoner"]</xpath>
 		<value>
 			<tagToGive>Fieldwork</tagToGive>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Adding Fieldwork tag to Slaughter -->
-		<xpath>/WorkGivers/WorkGiverDef[defName = "Slaughter"]</xpath>
+		<xpath>/Defs/WorkGiverDef[defName = "Slaughter"]</xpath>
 		<value>
 			<tagToGive>Fieldwork</tagToGive>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Adding Fieldwork tag to Milk -->
-		<xpath>/WorkGivers/WorkGiverDef[defName = "Milk"]</xpath>
+		<xpath>/Defs/WorkGiverDef[defName = "Milk"]</xpath>
 		<value>
 			<tagToGive>Fieldwork</tagToGive>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Adding Fieldwork tag to Shear -->
-		<xpath>/WorkGivers/WorkGiverDef[defName = "Shear"]</xpath>
-		<value>
-			<tagToGive>Fieldwork</tagToGive>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd"> <!-- Adding Fieldwork tag to Train -->
-		<xpath>/WorkGivers/WorkGiverDef[defName = "Train"]</xpath>
+		<xpath>/Defs/WorkGiverDef[defName = "Shear"]</xpath>
 		<value>
 			<tagToGive>Fieldwork</tagToGive>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Adding Fieldwork tag to GrowerHarvest -->
-		<xpath>/WorkGivers/WorkGiverDef[defName = "GrowerHarvest"]</xpath>
+		<xpath>/Defs/WorkGiverDef[defName = "GrowerHarvest"]</xpath>
 		<value>
 			<tagToGive>Fieldwork</tagToGive>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Adding Fieldwork tag to PlantsCut -->
-		<xpath>/WorkGivers/WorkGiverDef[defName = "PlantsCut"]</xpath>
+		<xpath>/Defs/WorkGiverDef[defName = "PlantsCut"]</xpath>
 		<value>
 			<tagToGive>Fieldwork</tagToGive>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Adding Fieldwork tag to Strip -->
-		<xpath>/WorkGivers/WorkGiverDef[defName = "Strip"]</xpath>
+		<xpath>/Defs/WorkGiverDef[defName = "Strip"]</xpath>
 		<value>
 			<tagToGive>Fieldwork</tagToGive>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Adding Fieldwork tag to BuryCorpses -->
-		<xpath>/WorkGivers/WorkGiverDef[defName = "BuryCorpses"]</xpath>
+		<xpath>/Defs/WorkGiverDef[defName = "BuryCorpses"]</xpath>
 		<value>
 			<tagToGive>Fieldwork</tagToGive>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Adding Fieldwork tag to HaulCorpses -->
-		<xpath>/WorkGivers/WorkGiverDef[defName = "HaulCorpses"]</xpath>
+		<xpath>/Defs/WorkGiverDef[defName = "HaulCorpses"]</xpath>
 		<value>
 			<tagToGive>Fieldwork</tagToGive>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Adding Fieldwork tag to CleanClearSnow -->
-		<xpath>/WorkGivers/WorkGiverDef[defName = "CleanClearSnow"]</xpath>
+		<xpath>/Defs/WorkGiverDef[defName = "CleanClearSnow"]</xpath>
 		<value>
 			<tagToGive>Fieldwork</tagToGive>
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationReplace"> <!-- Adding Fieldwork tag to CleanClearSnow -->
+	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/PawnColumnDef[defName = "FollowFieldwork"]/headerTip</xpath>
 		<value>
 			<headerTip>Follow master while the master is doing outside or dangerous field work (hunting,working with animals, harvest wild plants, strip or bury corpses, etc...).</headerTip>

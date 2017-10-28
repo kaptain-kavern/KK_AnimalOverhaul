@@ -1,17 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <ModMetaData>
 	<name>Vanilla Animal Overhaul</name>
 	<author>kaptain_kavern</author>
 	<url>https://ludeon.com/forums/index.php?topic=34173.0</url>
-	<targetVersion>0.17.0</targetVersion>
+	<targetVersion>0.18.0</targetVersion>
 	<description>&lt;b&gt;A collection of patches and tweaks regarding animals&lt;/b&gt;
 
-	&lt;size=26&gt;-= 1.0 - "&lt;b&gt;Konrad Lorenz&lt;/b&gt;  Edition" =-&lt;/size&gt;
+	&lt;size=24&gt;-= 1.0 - "&lt;b&gt;Konrad Lorenz&lt;/b&gt;  Edition" =-&lt;/size&gt;
 			&lt;i&gt;Focused on animal behavior.&lt;/i&gt; 
 
-	- All bears, Alpacas, Ostrich, Rhinoceros, Cow, Elk, Caribou, Warg and Elephants can now be used as pack animals and will be used by other factions
+	- All bears, Alpacas, Ostrich, Rhinoceros, Cow, Elk, Caribou, Warg and Elephants can now be used as pack animals and will be used by other factions (You need Animal Logic mod for this).
 
-	- Pets sets to follow master while doing fieldwork will now also consider DoctorRescue, ReleasePrisoner, Slaughter/Milk/Shear/Train, Harvest/Cut, Strip/Bury/Haul Corpses and CleanClearSnow as fieldwork.
+	- Pets sets to follow master while doing fieldwork will now also consider DoctorRescue, ReleasePrisoner, Slaughter/Milk/Shear, Harvest/Cut, Strip/Bury/Haul Corpses and CleanClearSnow as fieldwork.
 
 	- Chinchillas, Rhinoceros, Ostriches, Turkeys, Chickens, Pigs, Cows, Rat, WildBoars, Monkey, Wargs and all wolves are now herd animals.
 
@@ -41,6 +41,8 @@
 	&lt;b&gt;A big Thank you to Oblitus&lt;/b&gt; : &lt;i&gt;For "fixing" pack animals to be buyable.&lt;/i&gt; 
 
 	&lt;b&gt;A big Thank you to Coercion&lt;/b&gt; : &lt;i&gt;For all horns and antlers graphics - Originally made for the TropiCKAPP Rainforest mod.&lt;/i&gt; 
+
+	&lt;b&gt;Also Mehni for pointing me to an error with the changes I made with cats behavior changes&lt;/i&gt; 
 
 	</description>
 </ModMetaData>

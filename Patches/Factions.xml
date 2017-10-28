@@ -2,34 +2,30 @@
 <Patch>
 
 	<Operation Class="PatchOperationAdd"> <!-- Add animals to Outlander faction carriers -->
-		<xpath>/FactionDefs/FactionDef[defName = "Outlander"]/pawnGroupMakers/li[2]/carriers</xpath>
+		<xpath>/Defs/FactionDef[defName = "Outlander"]/pawnGroupMakers/li[2]/carriers</xpath>
 		<value>
+			<Cow>6</Cow>
+			<Caribou>3</Caribou>
+			<Elk>3</Elk>
+			<Warg>2</Warg>
 			<Rhinoceros>1</Rhinoceros>
-			<Alpaca>1</Alpaca>
 			<GrizzlyBear>1</GrizzlyBear>
 			<PolarBear>1</PolarBear>
-			<Elephant>1</Elephant>
-			<Caribou>1</Caribou>
-			<Elk>1</Elk>
 			<Ostrich>1</Ostrich>
-			<Cow>1</Cow>
-			<Warg>1</Warg>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Add animals to Tribe faction carriers -->
-		<xpath>/FactionDefs/FactionDef[defName = "Tribe"]/pawnGroupMakers/li[2]/carriers</xpath>
+		<xpath>/Defs/FactionDef[defName = "Tribe"]/pawnGroupMakers/li[2]/carriers</xpath>
 		<value>
-			<Rhinoceros>1</Rhinoceros>
-			<Alpaca>1</Alpaca>
-			<GrizzlyBear>1</GrizzlyBear>
+			<Cow>4</Cow>
+			<Rhinoceros>2</Rhinoceros>
+			<GrizzlyBear>2</GrizzlyBear>
 			<PolarBear>1</PolarBear>
-			<Elephant>1</Elephant>
-			<Caribou>1</Caribou>
-			<Elk>1</Elk>
-			<Ostrich>1</Ostrich>
-			<Cow>1</Cow>
-			<Warg>1</Warg>
+			<Caribou>4</Caribou>
+			<Elk>4</Elk>
+			<Ostrich>4</Ostrich>
+			<Warg>2</Warg>
 		</value>
 	</Operation>
 
