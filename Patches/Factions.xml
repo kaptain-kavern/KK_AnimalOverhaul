@@ -2,7 +2,7 @@
 <Patch>
 
 	<Operation Class="PatchOperationAdd"> <!-- Add animals to Outlander faction carriers -->
-		<xpath>/FactionDefs/FactionDef[defName = "Outlander"]/pawnGroupMakers/li[2]/carriers</xpath>
+		<xpath>/Defs/FactionDef[defName = "Outlander"]/pawnGroupMakers/li[2]/carriers</xpath>
 		<value>
 			<Rhinoceros>1</Rhinoceros>
 			<Alpaca>1</Alpaca>
@@ -18,7 +18,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Add animals to Tribe faction carriers -->
-		<xpath>/FactionDefs/FactionDef[defName = "Tribe"]/pawnGroupMakers/li[2]/carriers</xpath>
+		<xpath>/Defs/FactionDef[defName = "Tribe"]/pawnGroupMakers/li[2]/carriers</xpath>
 		<value>
 			<Rhinoceros>1</Rhinoceros>
 			<Alpaca>1</Alpaca>

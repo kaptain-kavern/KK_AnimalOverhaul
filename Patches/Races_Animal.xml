@@ -37,14 +37,14 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Pack Caribou  -->
-		<xpath>/ThingDefs/ThingDef[defName="Caribou"]/race</xpath>
+		<xpath>/Defs/ThingDef[defName="Caribou"]/race</xpath>
 		<value>
 			<packAnimal>true</packAnimal>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Pack Elk -->
-		<xpath>/ThingDefs/ThingDef[defName="Elk"]/race</xpath>
+		<xpath>/Defs/ThingDef[defName="Elk"]/race</xpath>
 		<value>
 			<packAnimal>true</packAnimal>
 		</value>
@@ -170,7 +170,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- WildBoar are herdAnimals  -->
-		<xpath>/ThingDefs/ThingDef[defName = "WildBoar"]/race</xpath>
+		<xpath>/Defs/ThingDef[defName = "WildBoar"]/race</xpath>
 		<value>
 			<herdAnimal>true</herdAnimal>
 		</value>
@@ -256,14 +256,14 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Unfertilized tortoise egg -->
-		<xpath>/ThingDefs/ThingDef[defName = "Tortoise"]/comps/li[@Class = "CompProperties_EggLayer"]</xpath>
+		<xpath>/Defs/ThingDef[defName = "Tortoise"]/comps/li[@Class = "CompProperties_EggLayer"]</xpath>
 		<value>
 			<eggUnfertilizedDef>EggTortoiseUnfertilized</eggUnfertilizedDef>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationRemove"> <!-- Unfertilized tortoise egg  -->
-		<xpath>/ThingDefs/ThingDef[defName = "Tortoise"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+		<xpath>/Defs/ThingDef[defName = "Tortoise"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd"> <!-- Unfertilized turkey egg -->
@@ -289,7 +289,7 @@
 	</Operation> 
 
 	<Operation Class="PatchOperationReplace"> <!-- "Set ElephantTusk to the right category" -->
-		<xpath>/GameData/ThingDef[defName = "ElephantTusk"]/thingCategories</xpath>
+		<xpath>/Defs/ThingDef[defName = "ElephantTusk"]/thingCategories</xpath>
 		<value>
 			<thingCategories>
 				<li>KKAO_HornAntler</li>
@@ -338,7 +338,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationInsert"> <!-- Milkable Deer  -->
-		<xpath>/ThingDefs/ThingDef[defName = "Deer"]/description</xpath>
+		<xpath>/Defs/ThingDef[defName = "Deer"]/description</xpath>
 		<value>
 		    <comps>
 		      <li Class="CompProperties_Milkable">
@@ -351,14 +351,14 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace"> <!-- switch to modded body for deer-->
-		<xpath>/ThingDefs/ThingDef[defName = "Deer"]/race/body</xpath>
+		<xpath>/Defs/ThingDef[defName = "Deer"]/race/body</xpath>
 		<value>
 			<body>KKAO_QuadrupedAnimalWithHoovesAndAntlers</body>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Deer drop antler  -->
-		<xpath>/ThingDefs/PawnKindDef[defName = "Deer"]/lifeStages/li[3]</xpath>
+		<xpath>/Defs/PawnKindDef[defName = "Deer"]/lifeStages/li[3]</xpath>
 		<value>
 			<butcherBodyPart>
 				<bodyPartGroup>HornAttackTool</bodyPartGroup>
@@ -369,7 +369,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationInsert"> <!-- Milkable and shearable Ibex  -->
-		<xpath>/ThingDefs/ThingDef[defName = "Ibex"]/description</xpath>
+		<xpath>/Defs/ThingDef[defName = "Ibex"]/description</xpath>
 		<value>
 			<comps>
 				<li Class="CompProperties_Milkable">
@@ -387,14 +387,14 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace"> <!-- switch to modded body for Ibex-->
-		<xpath>/ThingDefs/ThingDef[defName = "Ibex"]/race/body</xpath>
+		<xpath>/Defs/ThingDef[defName = "Ibex"]/race/body</xpath>
 		<value>
 			<body>KKAO_QuadrupedAnimalWithHoovesAndHorns</body>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Ibex drop horn  -->
-		<xpath>/ThingDefs/PawnKindDef[defName = "Ibex"]/lifeStages/li[3]</xpath>
+		<xpath>/Defs/PawnKindDef[defName = "Ibex"]/lifeStages/li[3]</xpath>
 		<value>
 			<butcherBodyPart>
 				<bodyPartGroup>HornAttackTool</bodyPartGroup>
@@ -405,14 +405,14 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace"> <!-- Elk switch to modded body -->
-		<xpath>/ThingDefs/ThingDef[defName = "Elk"]/race/body</xpath>
+		<xpath>/Defs/ThingDef[defName = "Elk"]/race/body</xpath>
 		<value>
 			<body>KKAO_QuadrupedAnimalWithHoovesAndAntlers</body>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Elk drop horn  -->
-		<xpath>/ThingDefs/PawnKindDef[defName = "Elk"]/lifeStages/li[3]</xpath>
+		<xpath>/Defs/PawnKindDef[defName = "Elk"]/lifeStages/li[3]</xpath>
 		<value>
 			<butcherBodyPart>
 				<bodyPartGroup>HornAttackTool</bodyPartGroup>
@@ -423,14 +423,14 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace"> <!-- Caribou switch to modded body -->
-		<xpath>/ThingDefs/ThingDef[defName = "Caribou"]/race/body</xpath>
+		<xpath>/Defs/ThingDef[defName = "Caribou"]/race/body</xpath>
 		<value>
 			<body>KKAO_QuadrupedAnimalWithHoovesAndAntlers</body>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Caribou drop horn  -->
-		<xpath>/ThingDefs/PawnKindDef[defName = "Caribou"]/lifeStages/li[3]</xpath>
+		<xpath>/Defs/PawnKindDef[defName = "Caribou"]/lifeStages/li[3]</xpath>
 		<value>
 			<butcherBodyPart>
 				<bodyPartGroup>HornAttackTool</bodyPartGroup>
@@ -441,7 +441,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace"> <!-- "Set Thrumbo Horn to the right category" -->
-		<xpath>/GameData/ThingDef[defName = "ThrumboHorn"]/thingCategories</xpath>
+		<xpath>/Defs/ThingDef[defName = "ThrumboHorn"]/thingCategories</xpath>
 		<value>
 			<thingCategories>
 				<li>KKAO_HornAntler</li>

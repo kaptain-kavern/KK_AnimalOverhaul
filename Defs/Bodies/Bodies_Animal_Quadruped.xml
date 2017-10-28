@@ -7,7 +7,7 @@
   - this body part is then hit.
 -->
 
-<BodyDefs>
+<Defs>
   <BodyDef>
     <defName>KKAO_QuadrupedAnimalWithHoovesAndHorns</defName>
     <label>quadruped animal</label>
@@ -350,4 +350,4 @@
     </corePart>
   </BodyDef>
 
-</BodyDefs>
+</Defs>
